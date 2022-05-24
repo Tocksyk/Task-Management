@@ -1,12 +1,13 @@
 <script setup>
 import toolbar from './components/toolbar.vue'
 import today from './components/today.vue'
+import addTask from './components/addTask.vue'
 </script>
 <template>
 <div id="canvas">
     <toolbar />
     <today />
-    ---------taskAdd-----------<br>
+    <addTask />
     ---------pinnedTask-----------<br>
     ---------showTask-----------<br>
     ---------doneTask-----------<br>
