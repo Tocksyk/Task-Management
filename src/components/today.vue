@@ -6,7 +6,8 @@ let fullDate = computed(()=> new Date().getDate().toString());
 <template>
 <div class="presentSection">
     <span class="goChange">
-        <button class="prevButton"> &lt </button>
+        <button class="prevButton"> <i class="fa fa-angle-right" aria-hidden="true"></i>
+ </button>
     </span>
     <span>
         <section>{{date}}</section>
