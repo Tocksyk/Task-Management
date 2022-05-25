@@ -2,15 +2,14 @@
 import toolbar from './components/toolbar.vue'
 import today from './components/today.vue'
 import addTask from './components/addTask.vue'
+import taskList from './components/taskList.vue'
 </script>
 <template>
 <div id="canvas">
     <toolbar />
     <today />
     <addTask />
-    ---------pinnedTask-----------<br>
-    ---------showTask-----------<br>
-    ---------doneTask-----------<br>
+    <taskList />
 </div>
 </template>
 
